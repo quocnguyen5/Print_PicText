@@ -1,1 +1,1 @@
-#Print Picture Text
+Print Picture Text

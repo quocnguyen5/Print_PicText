@@ -29,7 +29,8 @@ for i in range(len(countdown)):
     t.sleep(0.5)  # Tốc độ loading khi bắt đầu xử lý loading 10 -> 100%
 print("*                       Hoàn tất....")
 
-with open("vv.txt", "r") as fh:  # "aa.txt" là file chứa text-image đã tạo.
+# "PicText.txt" là file chứa text-image đã tạo.
+with open("PicText.txt", "r") as fh:
     for line in fh:
         print(line.strip())
         t.sleep(0.1)  # Chỉnh sửa thông số thay đổi Tốc độ load của hình ảnh
